@@ -1,3 +1,6 @@
+Written by Shawn Paul Smith
+Public Domain
+
 This small C program prints the A006877 sequence of numbers that break the
 record for stopping time in the Collatz algorithm.  It is originally written as a
 reference implementation of a benchmark of several languages.
