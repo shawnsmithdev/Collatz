@@ -1,0 +1,16 @@
+Collatz for Wii Homebrew
+Written by syco (Shawn Paul Smith)
+Uses code from devkitppc template example
+The part I wrote is public domain
+
+Prints sequence A006877, up to 16500000, of the numbers that take more steps
+than any smaller number to reach 1 in the Collatz Algorithm.  The Collatz
+Algorithm is a recursive function that takes n and returns n/2 if n is even, or
+(3*n)+1 if n is odd.  It has not been proven that every number greater than 1
+will eventually return to 1, but computers have shown they do up to exceedingly
+large numbers.
+
+To run in Homebrew Channel, create a folder on an SD card called apps, and then
+create a folder inside apps called Collatz-Wii.  Copy the contents of the
+homebrew-channel folder inside Collatz-Wii, and also copy collatz-wii.dol, but
+then rename this new copy to boot.dol
